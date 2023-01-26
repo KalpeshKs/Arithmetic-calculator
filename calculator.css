@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 15%;
+    margin: 100px auto;
+    background-color:#34495e;
+}
+.container{
+    text-align: center;
+}
+h2{
+    color: white;
+}
+input{
+    height:2rem;
+    width: 20rem;
+}
+select{
+    height:2rem ;
+    width: 20rem;
+    font-weight: bold;
+}
+#btn  ,#reset   {
+    background-color: grey;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18x;
+    height:2rem ;
+    width: 20rem;
+}
+@media screen and (max-width:375px){
+    input , #reset , select ,#btn{
+        width: 12em ;
+    }
+    h2{
+        font-size: 1em;
+        width:53%;
+    }
+
+    .container{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100% ;
+        margin: auto;
+    }
+}
